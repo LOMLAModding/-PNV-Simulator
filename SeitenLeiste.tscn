@@ -1,0 +1,205 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Fonts/arial.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://SeitenLeiste.gd" type="Script" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 18
+use_filter = true
+font_data = ExtResource( 1 )
+
+[node name="Menu" type="ScrollContainer"]
+anchor_left = 1.0
+anchor_top = 0.067
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -256.0
+margin_top = -0.200001
+scroll_horizontal_enabled = false
+script = ExtResource( 2 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_right = 244.0
+margin_bottom = 707.0
+size_flags_horizontal = 3
+
+[node name="Platzhalter" type="HBoxContainer" parent="VBoxContainer"]
+margin_right = 244.0
+margin_bottom = 3.0
+rect_min_size = Vector2( 0, 3 )
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+margin_top = 7.0
+margin_right = 244.0
+margin_bottom = 35.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Home"
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+margin_top = 39.0
+margin_right = 244.0
+margin_bottom = 67.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Busse"
+
+[node name="Button3" type="Button" parent="VBoxContainer"]
+margin_top = 71.0
+margin_right = 244.0
+margin_bottom = 99.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Trams"
+
+[node name="Button22" type="Button" parent="VBoxContainer"]
+margin_top = 103.0
+margin_right = 244.0
+margin_bottom = 131.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Fuhrpark"
+
+[node name="Button4" type="Button" parent="VBoxContainer"]
+margin_top = 135.0
+margin_right = 244.0
+margin_bottom = 163.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Städte"
+
+[node name="Button5" type="Button" parent="VBoxContainer"]
+margin_top = 167.0
+margin_right = 244.0
+margin_bottom = 195.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Ersteller und Gruppe"
+
+[node name="Button6" type="Button" parent="VBoxContainer"]
+margin_top = 199.0
+margin_right = 244.0
+margin_bottom = 227.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Folge uns"
+
+[node name="Button7" type="Button" parent="VBoxContainer"]
+margin_top = 231.0
+margin_right = 244.0
+margin_bottom = 259.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Melde ein Fehler"
+
+[node name="Button8" type="Button" parent="VBoxContainer"]
+margin_top = 263.0
+margin_right = 244.0
+margin_bottom = 291.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Melde ein Spieler"
+
+[node name="Button9" type="Button" parent="VBoxContainer"]
+margin_top = 295.0
+margin_right = 244.0
+margin_bottom = 323.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Errungenschaften"
+
+[node name="Button10" type="Button" parent="VBoxContainer"]
+margin_top = 327.0
+margin_right = 244.0
+margin_bottom = 355.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Gamepass Shop"
+
+[node name="Button11" type="Button" parent="VBoxContainer"]
+margin_top = 359.0
+margin_right = 244.0
+margin_bottom = 387.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Favorieten"
+
+[node name="Button12" type="Button" parent="VBoxContainer"]
+margin_top = 391.0
+margin_right = 244.0
+margin_bottom = 419.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Liniennetz"
+
+[node name="Button13" type="Button" parent="VBoxContainer"]
+margin_top = 423.0
+margin_right = 244.0
+margin_bottom = 451.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Guids"
+
+[node name="Button14" type="Button" parent="VBoxContainer"]
+margin_top = 455.0
+margin_right = 244.0
+margin_bottom = 483.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Ampeln und Signale"
+
+[node name="Button15" type="Button" parent="VBoxContainer"]
+margin_top = 487.0
+margin_right = 244.0
+margin_bottom = 515.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Zur Website"
+
+[node name="Button16" type="Button" parent="VBoxContainer"]
+margin_top = 519.0
+margin_right = 244.0
+margin_bottom = 547.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Trams of Germany News"
+
+[node name="Button17" type="Button" parent="VBoxContainer"]
+margin_top = 551.0
+margin_right = 244.0
+margin_bottom = 579.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Feature Wünsche"
+
+[node name="Button18" type="Button" parent="VBoxContainer"]
+margin_top = 583.0
+margin_right = 244.0
+margin_bottom = 611.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Statistiken"
+
+[node name="Button19" type="Button" parent="VBoxContainer"]
+margin_top = 615.0
+margin_right = 244.0
+margin_bottom = 643.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Linien, Routen und Kurse"
+
+[node name="Button20" type="Button" parent="VBoxContainer"]
+margin_top = 647.0
+margin_right = 244.0
+margin_bottom = 675.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Einstellungen"
+
+[node name="Button21" type="Button" parent="VBoxContainer"]
+margin_top = 679.0
+margin_right = 244.0
+margin_bottom = 707.0
+rect_min_size = Vector2( 150, 28 )
+custom_fonts/font = SubResource( 1 )
+text = "Zu Trmas of Germany"
